@@ -1,0 +1,30 @@
+
+net: "./network.prototxt"
+
+test_iter: 1638
+
+test_interval: 5400
+
+base_lr:1e-6
+
+momentum: 0.9
+
+weight_decay: 0.0005
+
+lr_policy: "step"
+
+gamma: 0.1
+
+stepsize: 1080000
+
+display: 2700
+
+max_iter: 2160000
+
+snapshot: 54000
+
+snapshot_prefix: "./model/network"
+
+solver_mode: GPU
+
+device_id: 0
