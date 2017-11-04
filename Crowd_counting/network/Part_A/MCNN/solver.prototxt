@@ -1,0 +1,14 @@
+net: "network/Part_A/MCNN/train.prototxt"
+display: 1000
+base_lr: 1e-6
+lr_policy: "multistep"
+gamma: 0.1
+stepvalue: [500000,800000,1000000]
+max_iter: 1200000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+average_loss: 2700
+snapshot_prefix: "trainedmodel/Part_A/MCNN/MCNN"
+solver_mode: GPU 
+
