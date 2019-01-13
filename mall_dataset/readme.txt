@@ -9,3 +9,6 @@ in Proceedings of IEEE Conference on Computer Vision and Pattern Recognition, 20
 [2] Feature Mining for Localised Crowd Counting 
 K. Chen, C. C. Loy, S. Gong, and T. Xiang 
 British Machine Vision Conference, Surrey, United Kingdom, 2012 (BMVC 2012)
+
+记得去下载 mall-dataset的数据集
+

@@ -1,5 +1,5 @@
 
-%%create ground density map from labeled data
+%create ground density map from labeled data
 clear;
 load('perspective_roi.mat');
 load('mall_gt.mat');
